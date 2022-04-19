@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">ASP.NET MVC Architecture</h1>
+    <p>Here, you will learn an overview of MVC architecture</p>
+</div>
+
+<div class="text-left" > 
+    <p>The MVC architectural pattern has existed for a long time 
+        in software engineering. All most all the languages use 
+        MVC with slight variation, but conceptually 
+        it remains the same. <br><br>
+        Let's understand the MVC architecture supported in ASP.NET.<br>
+        <br>
+        MVC stands for Model, View, and Controller. 
+        MVC separates an application into 
+        three components - Model, View, and Controller.<br>
+        <br>
+        <span style="color:red;font-family:sans-serif;"> Model: </span> 
+        represents the shape of the data. 
+        A class in C# is used to describe a model. 
+        Model objects store data retrieved from the database.</p> 
+</div>
+<div class="text-center"><h1 class="display-6">Model represents the data.</h1><br></div>
+
+<div>
+    <p>
+    <span style="color:red;font-family:sans-serif;"> View: </span>
+View in MVC is a user interface. 
+View display model data to the user and also enables 
+them to modify them. View in ASP.NET MVC is HTML, CSS, 
+and some special syntax (Razor syntax) that makes 
+it easy to communicate with the model and the controller. </p>
+</div>
+
+<div class="text-center"><h1 class="display-6">View is the User Interface.</h1><br></div>
+<div>
+    <p>
+        <span style="color:red;font-family:sans-serif;"> Controller: </span>
+    The controller handles the user request. 
+    Typically, the user uses the view and raises an HTTP request, 
+    which will be handled by the controller.
+     The controller processes the request and returns 
+     the appropriate view as a response. 
+    </p>
+</div>
+<div class="text-center"><h1 class="display-6">Controller is the request handler.</h1><br></div>
+<div>
+    <p>
+        The following figure illustrates the interaction between Model, View, and Controller. 
+    </p>
+</div>
+  <br>
+  <div class="text-center">
+  <br>
+  <img class="img-fluid" src="https://www.tutorialsteacher.com/Content/images/mvc/mvc-architecture.png" style="width:600px">
+  <p>Mvc Architecture</p><br>
+  
+  </div>
+  <p class="text-left"> The following figure illustrates the flow of the user's request in ASP.NET MVC. </p> <br>
+  <div class="text-center">
+<img class="img-fluid" src="https://www.tutorialsteacher.com/Content/images/mvc/request-handling-in-mvc.png" style="width:600px">
+<p>Request Flow in MVC Architecture</p>
+<br>
+  </div>
+  <p>As per the above figure, when a user enters a URL in the browser, 
+      it goes to the webserver and routed to a controller. 
+      A controller executes related view and models for that 
+      request and create the response and sends it back to the browser. </p>
