@@ -3,7 +3,6 @@ using System.Linq;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
-using AspNetCore.Authentication.SK.SmartID.SmartID.Rest.Dao;
 using SkiDiveCode.Ldap.Rfc2253;
 
 namespace LoginPageAndSmartID

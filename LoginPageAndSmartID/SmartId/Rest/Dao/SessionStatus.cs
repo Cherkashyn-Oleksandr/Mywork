@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace AspNetCore.Authentication.SK.SmartID.SmartID.Rest.Dao
+namespace LoginPageAndSmartID
 {
     public class SessionStatus
     {

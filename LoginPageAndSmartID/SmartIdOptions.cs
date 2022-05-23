@@ -6,9 +6,9 @@ namespace LoginPageAndSmartID
     public class SmartIdOptions : AuthenticationSchemeOptions
     {
         // ReSharper disable once InconsistentNaming
-        public string RelyingPartyUUID { get; private set; }
+        public string RelyingPartyUUID { get;  set; }
 
-        public string RelyingPartyName { get; private set; }
+        public string RelyingPartyName { get;  set; }
 
         public List<AllowedInteraction> AllowedInteractions { get; } = new List<AllowedInteraction>();
 
