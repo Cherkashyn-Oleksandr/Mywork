@@ -19,7 +19,7 @@
         </br>
         <asp:Label ID="Label2" runat="server" Text="Price"></asp:Label>
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></br>
-        <asp:Button ID="Button3" runat="server" Text="Buy" OnClick="Button3_Click" />
+        
         <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" DataSourceID="SqlDataSource1" Height="50px" Width="125px" style="margin-bottom: 2px">
             <Fields>
                 <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
@@ -30,14 +30,13 @@
         
         
         
-        <asp:Label ID="Label3" runat="server" Text=""></asp:Label>
+     
         
         
         
         
-        <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
-        <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
-        <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="Label4" runat="server" Text=""></asp:Label>
+        
         
         
         

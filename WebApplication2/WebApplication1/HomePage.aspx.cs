@@ -11,11 +11,10 @@ namespace WebApplication1
 {
     public partial class HomePage : System.Web.UI.Page
     {
-        public int Price { get; set; }
-        public int AllPrice { get; set; }
+        
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect("~/LoginForm.aspx");
+           
 
         }
 
@@ -47,8 +46,7 @@ namespace WebApplication1
                     TextBox2.Text = reader["Price"].ToString();
                     int price = reader.GetInt32(1);
                     Label4.Text = Convert.ToString(price);
-                    this.Price = price;
-                    Label5.Text = Convert.ToString(Price);
+                   
                 }
             }
             catch (Exception ex)
@@ -58,13 +56,6 @@ namespace WebApplication1
 
         }
 
-        protected void Button3_Click(object sender, EventArgs e)
-        {
-            int price = this.Price;
-            Label6.Text = Convert.ToString(price);
-            AllPrice = AllPrice + Price;
-            
-            Label3.Text = Convert.ToString(AllPrice);
-        }
+        
     }
 }
